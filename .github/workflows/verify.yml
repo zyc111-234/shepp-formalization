@@ -29,9 +29,10 @@ jobs:
         with:
           lake-package-directory: formal
           auto-config: false
-          use-mathlib-cache: false
-
-      - name: Verify single-file formalization
-        shell: pwsh
-        working-directory: formal
-        run: ./verify.ps1
+          build: true
+          test: false
+          lint: false
+          use-mathlib-cache: true
+          axiom-audit: true
+          axiom-audit-root: Shepp
+          axiom-audit-allow: propext,Classical.choice,Quot.sound
