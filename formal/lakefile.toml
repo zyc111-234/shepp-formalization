@@ -1,0 +1,11 @@
+name = "shepp_formalization"
+version = "1.0.0"
+defaultTargets = ["Shepp"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.33.0-rc1"
+
+[[lean_lib]]
+name = "Shepp"
