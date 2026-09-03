@@ -1,5 +1,9 @@
 # Shepp criterion: single-file Lean verification
 
+Companion formalization for:
+**The higher-dimensional Shepp problem: an exact criterion for random ball coverings of tori**
+Paper: https://arxiv.org/abs/2609.02156
+
 The Lean formalization supporting the paper-facing results listed below is
 contained in [`formal/Shepp.lean`](formal/Shepp.lean). The file has a single
 direct import, `Mathlib`. The project pins both Lean and Mathlib to
